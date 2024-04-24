@@ -249,7 +249,7 @@ aside:
     page: false
     # 开启后不悬停目录有模糊效果
     # After opening, there is a fuzzy effect without hovering over the directory
-    vague: true
+    vague: false
 
   # 侧边栏文章列表
   # Sidebar article list
@@ -300,8 +300,8 @@ aside:
 # 首页文章配置信息
 # Configure information on the home page
 index_post_list:
-  direction: column # row / column
-  content: false # 1: post.description / 2: 自动获取description或截取内容(Automatically get descriptions or screenshots) / 3: 只使用截取内容(Use only screenshots) / false: 不显示内容(No content is displayed)
+  direction: row # row / column
+  content: true # 1: post.description / 2: 自动获取description或截取内容(Automatically get descriptions or screenshots) / 3: 只使用截取内容(Use only screenshots) / false: 不显示内容(No content is displayed)
   length: 500 # 截取内容的长度 : The length of the screenshot content
   cover: both # left: 在左侧 : left / right: 在右侧 : right / both: 两侧 : both
 
@@ -582,7 +582,7 @@ lazyload:
 loading:
   # 全局加载动画
   # Global loading animation
-  fullpage: false
+  fullpage: true
   # 顶部加载胶囊
   # Top loading capsule
   pace: true
@@ -610,7 +610,7 @@ lightbox: true
 # https://fancyapps.com/fancybox/
 fancybox: true
 # mediumZoom
-mediumZoom: false
+mediumZoom: true
 
 # mermaid tags plugin
 # https://mermaid.js.org/
@@ -646,7 +646,7 @@ busuanzi_use: 0 # 0: 原版 / 1: 青秸(other: 其它自定義的busuanzi平台)
 # warning：开启前需要安装搜索插件
 # warning: You need to install the search plugin before turning it on
 search:
-  enable: false
+  enable: true
   # algolia, local
   type: local
   # 推荐标签

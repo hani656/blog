@@ -1,5 +1,6 @@
 ---
 title: 面试助手
+recommend: true
 ---
 
 # 前端基础
